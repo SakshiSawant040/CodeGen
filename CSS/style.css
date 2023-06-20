@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#video-bg{
+    position:absolute;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    background-size: cover;
+}
+video{
+    display: block;
+}
+.video-container{
+    width: 100%;
+    max-height: 150vh;
+}
+
+.navbar{
+    position: relative;
+    z-index: 1;
+    height: 120px;
+    width: 100%;
+    background: linear-gradient(135deg, #021534,#051c47);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.logo{
+    position: relative;
+    left: 20px;
+    height: 120px;
+    width: 10px;
+    position: absolute;
+    padding-left: 0px;
+}
+ .navbar ul {
+display: flex;
+padding-left: 450px;
+
+} 
+
+.navbar ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 25px;
+    position: relative;
+
+
+} 
+
+.navbar ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-weight: 2em;
+    /* background-color:blue ;     onclick event*/
+    height: 40px;
+    width: auto;
+}
+
+.Heading{
+    /* background-color: aquamarine; */
+    height: 200px;
+    width: 800px;
+    position: absolute;
+    top: 330px;
+    left: 80px;
+}
+
+.Heading h3{
+    color: azure;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Heading h4{
+    color: azure;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Grrenletter{
+    color: #29de11;
+}
+#Redletter{
+    color: red;
+}
+
+.info{
+    color: white;
+    font-weight: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    height: 60px;
+    width: 560px;
+    padding-top: 27px;
+
+}
+#services-content{
+    position: relative;
+    margin-top: 850px;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+}
+#services-content h2{
+    margin-bottom: 30px;
+display: block;
+width: 100%;
+font-size: 35px;
+text-align: center;
+}
+#services-content .row1, .row2 , .row3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.row1 {
+    margin-top: 60px;
+}
+
+ .col1 , .col2 , .col3 {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 4, 48);
+    box-shadow: 10px 10px 10px rgb(164, 43, 146);
+    border: 2px solid black;
+    width: 300px;
+    height: 300px ;
+    transition: all;
+    transition-duration: 55ms;
+    border-radius: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: white;
+}
+.col1:hover{
+    transform: scale(1.2);
+    font-weight: 2em;
+}
+.col2:hover{
+    transform: scale(1.2);
+    font-weight: 2em;
+}
+.col3:hover{
+    transform: scale(1.2);
+    font-weight: 2em;
+}
+#services-logo{
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 140px;
+    box-shadow: 1px 1px 5px 10px  rgba(164, 43, 146, 0.699);
+    height: 30px;
+    width: 30px;
+}
+.col1 h3, .col2 h3, .col3  h3{
+    font-weight: 1em;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#row1{
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 30px 40px;
+   margin-bottom: 10px;
+}
+#row2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 40px;
+}
+
+#row3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 40px;
+}
+
+.col1 p, .col2 p,.col3 p{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+#Internship{
+    margin-top: 150px;
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(135deg, #021534,#051c47);
+}
+#Internship h2{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: 2em;
+    font-size: 30px;
+    padding-top: 40px;
+}
+.intern{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    align-items: center;
+
+    
+}
+
+.i1 , .i2 , .i3{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(35, 73, 143);
+    transition: all;
+    transition-duration: 55ms;
+    border: 2px solid rgba(255, 255, 255, 0.964);
+    box-shadow:  1px 1px 5px 10px  rgba(164, 43, 146, 0.699);
+    
+}
+.i1:hover , .i2:hover , .i3:hover{
+    transform: scale(1.2);
+}
+.intern img{
+    margin: 20px 20px 20px 20px;
+    height: 250px;
+    width: 250px;
+    border: 1px solid blanchedalmond;
+    border-radius: 50%;
+    background-color: black;
+}
+/* #Testimonials{
+    height: 450px;
+    width: 100%;
+    background: white;
+}
+#Testimonials h2{
+    display: block;
+    position: relative;
+    text-align: center;
+    color: black;
+    font-weight: 2em;
+    font-size: 30px;
+    padding-top: 50px;  
+    padding-bottom: 50px;
+}
+.test1 , .test2, .test3{
+    margin-top: 10px;
+    background: linear-gradient(135deg, #05142e,#051c47);
+    height: 300px;
+    width: 45%;
+    align-items: center;
+}
+.test1 img, .test2 img,.test3 img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid blanchedalmond;
+    border-radius: 100px;
+    background-color: black;
+    
+} */
+#footer{
+    position: sticky;
+    margin-top: 250px;
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(135deg, #030b19,#051c47);
+}
+.about ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about ul li{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+}
+.about a{
+    padding-top: 15px;
+    padding-right: 30px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: 120%;
+}
+.socialmedia ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialmedia ul li {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+}
+
+.icons{
+    padding-top: 26px;
+    padding-right: 25px;
+    height: 20px;
+    width: 20px;
+}
+.licen{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:80%;
+}
